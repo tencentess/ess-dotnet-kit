@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ess-dotnet-kit/1.0.0": {
+        "runtime": {
+          "ess-dotnet-kit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ess-dotnet-kit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

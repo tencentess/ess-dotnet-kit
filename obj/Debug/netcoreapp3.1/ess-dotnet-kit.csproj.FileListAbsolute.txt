@@ -1,0 +1,10 @@
+/Users/alexiosli/dotnet/ess-dotnet-kit/bin/Debug/netcoreapp3.1/ess-dotnet-kit.deps.json
+/Users/alexiosli/dotnet/ess-dotnet-kit/bin/Debug/netcoreapp3.1/ess-dotnet-kit.runtimeconfig.json
+/Users/alexiosli/dotnet/ess-dotnet-kit/bin/Debug/netcoreapp3.1/ess-dotnet-kit.runtimeconfig.dev.json
+/Users/alexiosli/dotnet/ess-dotnet-kit/bin/Debug/netcoreapp3.1/ess-dotnet-kit.dll
+/Users/alexiosli/dotnet/ess-dotnet-kit/bin/Debug/netcoreapp3.1/ess-dotnet-kit.pdb
+/Users/alexiosli/dotnet/ess-dotnet-kit/obj/Debug/netcoreapp3.1/ess-dotnet-kit.csprojAssemblyReference.cache
+/Users/alexiosli/dotnet/ess-dotnet-kit/obj/Debug/netcoreapp3.1/ess-dotnet-kit.AssemblyInfoInputs.cache
+/Users/alexiosli/dotnet/ess-dotnet-kit/obj/Debug/netcoreapp3.1/ess-dotnet-kit.AssemblyInfo.cs
+/Users/alexiosli/dotnet/ess-dotnet-kit/obj/Debug/netcoreapp3.1/ess-dotnet-kit.dll
+/Users/alexiosli/dotnet/ess-dotnet-kit/obj/Debug/netcoreapp3.1/ess-dotnet-kit.pdb
