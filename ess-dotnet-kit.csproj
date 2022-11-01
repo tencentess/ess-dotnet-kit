@@ -6,4 +6,8 @@
     <RootNamespace>ess_dotnet_kit</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="TencentCloudSDK" Version="3.0.626" />
+  </ItemGroup>
+
 </Project>

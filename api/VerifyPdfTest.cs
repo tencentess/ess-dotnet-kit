@@ -4,15 +4,14 @@ using TencentCloud.Ess.V20201111.Models;
 
 namespace api
 {
-    public class CancelFlowTest
+    public class VerifyPdfTest
     {
         public static void Main1(string[] args)
         {
             string flowId = "********************************";
-            string cancelMessage = "撤销原因";
 
-            CancelFlowService service = new CancelFlowService();
-            CancelFlowResponse resp = service.CancelFlow(Configs.operatorUserId, flowId, cancelMessage);
+            VerifyPdfService service = new VerifyPdfService();
+            VerifyPdfResponse resp = service.VerifyPdf(Configs.operatorUserId, flowId);
 
             // 输出json格式的字符串回包
             Console.WriteLine(AbstractModel.ToJsonString(resp));

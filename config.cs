@@ -2,11 +2,11 @@
 public class Configs
 {
     // 调用API的密钥对，通过腾讯云控制台获取
-    public static string secretId = "****************";
-    public static string secretKey = "****************";
+    public static string secretId = "**********************";
+    public static string secretKey = "**********************";
 
     // operatorUserId: 经办人Id，电子签控制台获取
-    public static string operatorUserId = "****************";
+    public static string operatorUserId = "**********************";
 
     // 企业方静默签用的印章Id，电子签控制台获取
     public static string serverSignSealId = "****************";
