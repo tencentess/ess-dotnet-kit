@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ess-dotnet-kit/1.0.0": {
         "dependencies": {
-          "TencentCloudSDK": "3.0.626"
+          "TencentCloudSDK": "3.0.640"
         },
         "runtime": {
           "ess-dotnet-kit.dll": {}
@@ -23,15 +23,15 @@
         }
       },
       "System.Text.Encodings.Web/4.5.1": {},
-      "TencentCloudSDK/3.0.626": {
+      "TencentCloudSDK/3.0.640": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.Text.Encodings.Web": "4.5.1"
         },
         "runtime": {
           "lib/netstandard2.0/TencentCloud.dll": {
-            "assemblyVersion": "3.0.626.0",
-            "fileVersion": "3.0.626.0"
+            "assemblyVersion": "3.0.640.0",
+            "fileVersion": "3.0.640.0"
           }
         }
       }
@@ -57,12 +57,12 @@
       "path": "system.text.encodings.web/4.5.1",
       "hashPath": "system.text.encodings.web.4.5.1.nupkg.sha512"
     },
-    "TencentCloudSDK/3.0.626": {
+    "TencentCloudSDK/3.0.640": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-v22G1kUAlCwIscj5RqStHWUw9QBb68Y5KC52c0FsdiORmcccNsvgfMc26+miYOzS3C3Iw2pgr0qamKHhriXfXA==",
-      "path": "tencentcloudsdk/3.0.626",
-      "hashPath": "tencentcloudsdk.3.0.626.nupkg.sha512"
+      "sha512": "sha512-Gh0iKPLgl8ety9Oqjc5HgBt27sP7vKK4hU6oPJ33eOQ7UuIOy/KsSF6Ev9Z9qeAT82Jk2AqkpvqUr0dcN+pW8A==",
+      "path": "tencentcloudsdk/3.0.640",
+      "hashPath": "tencentcloudsdk.3.0.640.nupkg.sha512"
     }
   }
 }

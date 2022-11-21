@@ -41,7 +41,7 @@
           "dependencies": {
             "TencentCloudSDK": {
               "target": "Package",
-              "version": "[3.0.626, )"
+              "version": "[3.0.640, )"
             }
           },
           "imports": [

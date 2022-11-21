@@ -5,30 +5,22 @@
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.Text.Encodings.Web/4.5.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "TencentCloudSDK/3.0.626": {
+      "TencentCloudSDK/3.0.640": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -90,23 +82,23 @@
         "version.txt"
       ]
     },
-    "TencentCloudSDK/3.0.626": {
-      "sha512": "v22G1kUAlCwIscj5RqStHWUw9QBb68Y5KC52c0FsdiORmcccNsvgfMc26+miYOzS3C3Iw2pgr0qamKHhriXfXA==",
+    "TencentCloudSDK/3.0.640": {
+      "sha512": "Gh0iKPLgl8ety9Oqjc5HgBt27sP7vKK4hU6oPJ33eOQ7UuIOy/KsSF6Ev9Z9qeAT82Jk2AqkpvqUr0dcN+pW8A==",
       "type": "package",
-      "path": "tencentcloudsdk/3.0.626",
+      "path": "tencentcloudsdk/3.0.640",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/TencentCloud.dll",
         "lib/netstandard2.0/TencentCloud.dll",
-        "tencentcloudsdk.3.0.626.nupkg.sha512",
+        "tencentcloudsdk.3.0.640.nupkg.sha512",
         "tencentcloudsdk.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "TencentCloudSDK >= 3.0.626"
+      "TencentCloudSDK >= 3.0.640"
     ]
   },
   "packageFolders": {
@@ -150,7 +142,7 @@
         "dependencies": {
           "TencentCloudSDK": {
             "target": "Package",
-            "version": "[3.0.626, )"
+            "version": "[3.0.640, )"
           }
         },
         "imports": [
