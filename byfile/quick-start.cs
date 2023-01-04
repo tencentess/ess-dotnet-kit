@@ -16,8 +16,8 @@ namespace byfile
             // 定义合同名
             string flowName = "我的第一个合同";
 
-            /// 构造签署人
-            /// 此块代码中的$approvers仅用于快速发起一份合同样例，非正式对接用
+            // 构造签署人
+            // 此块代码中的$approvers仅用于快速发起一份合同样例，非正式对接用
             string personName = "**********"; // 个人签署方的姓名，必须是真实的才能正常签署
             string personMobile = "************"; // 个人签署方的手机号，必须是真实的才能正常签署
             ApproverInfo[] approvers = new ApproverInfo[] { ByFileService.BuildPersonApprover(personName, personMobile) };

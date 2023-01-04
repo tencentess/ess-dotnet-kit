@@ -1,5 +1,6 @@
 using TencentCloud.Ess.V20201111.Models;
 
+// 通过文件base64直接发起签署流程，返回flowid
 namespace api
 {
     public class CreateFlowByFileDirectlyResponse

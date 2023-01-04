@@ -1,6 +1,7 @@
 using TencentCloud.Ess.V20201111.Models;
 using System.Threading;
 
+// 通过模板发起签署流程，并查询签署链接
 namespace api
 {
     public class CreateFlowByTemplateDirectlyResponse
