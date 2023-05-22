@@ -8,6 +8,9 @@ namespace api
     {
         public static EssClient GetClientInstance(string secretId, string secretKey, string endPoint)
         {
+            // .Net Framework 4.7版本以下，默认不支持SSL 1.2/1.3，如果出现“发出请求错误”, 请配置如下
+            // System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+            
             // 实例化一个认证对象，入参需要传入腾讯云账户密钥对secretId，secretKey。
             Credential cred = new Credential
             {

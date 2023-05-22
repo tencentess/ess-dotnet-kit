@@ -1,6 +1,8 @@
 using System;
 using System.Security.Cryptography;
 using System.Text;
+
+// 使用callbackKey解密
 namespace TencentCloudExamples
 {
     class EssCallback

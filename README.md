@@ -44,5 +44,12 @@ tools目录提供了调用电子签企业版API时涉及到的各种算法样例
 ### config.cs
 里面定义调用电子签企业版API需要的一些核心参数。
 
+## 运行说明
+<label style="color:red">.Net Framework 4.7版本以下，默认不支持SSL 1.2/1.3，如果出现“发出请求错误”, 请配置如下</label>
+```
+System.Net.ServicePointManager.SecurityProtocol = 
+    SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+```
+
 ## 电子签企业版官网入口
 [腾讯电子签企业版](https://cloud.tencent.com/document/product/1323)
