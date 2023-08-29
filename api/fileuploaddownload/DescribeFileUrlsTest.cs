@@ -9,7 +9,6 @@ namespace api
         // 查询文件下载URL调用样例
         public static void Main1(string[] args)
         {
-            // 业务编号，如模板编号、文档编号、印章编号
             string flowId = "********************************";
 
             DescribeFileUrlsService service = new DescribeFileUrlsService();

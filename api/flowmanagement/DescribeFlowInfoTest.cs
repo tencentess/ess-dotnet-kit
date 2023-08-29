@@ -9,7 +9,6 @@ namespace api
         // 查询流程摘要调用样例
         public static void Main1(string[] args)
         {
-            // 需要查询的流程ID列表
             string flowId = "********************************";
 
             DescribeFlowInfoService service = new DescribeFlowInfoService();

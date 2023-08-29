@@ -10,7 +10,6 @@ namespace api
         // 此接口用于发起流程调用样例
         public static void Main1(string[] args)
         {
-            // 签署流程编号，由CreateFlow接口返回
             string flowId = "********************************";
 
             StartFlowService service = new StartFlowService();

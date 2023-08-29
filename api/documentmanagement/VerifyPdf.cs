@@ -1,11 +1,6 @@
 using TencentCloud.Ess.V20201111;
 using TencentCloud.Ess.V20201111.Models;
 
-// VerifyPdf 合同文件验签
-//
-// 官网文档：https://cloud.tencent.com/document/product/1323/80797
-//
-// 验证合同文件
 namespace api
 {
     public class VerifyPdfService
@@ -23,7 +18,6 @@ namespace api
             userInfo.UserId = operatorUserId;
             req.Operator = userInfo;
 
-            // 签署流程id
             req.FlowId = flowId;
             
             VerifyPdfResponse resp = client.VerifyPdfSync(req);

@@ -1,11 +1,6 @@
 using TencentCloud.Ess.V20201111;
 using TencentCloud.Ess.V20201111.Models;
 
-// CreateIntegrationEmployees 创建员工
-//
-// 官网文档：https://cloud.tencent.com/document/product/1323/81117
-//
-// 创建员工
 namespace api
 {
     public class CreateIntegrationEmployeesService
@@ -22,7 +17,6 @@ namespace api
             userInfo.UserId = operatorUserId;
             req.Operator = userInfo;
 
-            // 待创建员工的信息，Mobile和DisplayName必填
             req.Employees = employees;
 
             CreateIntegrationEmployeesResponse resp = client.CreateIntegrationEmployeesSync(req);

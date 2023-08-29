@@ -9,7 +9,6 @@ namespace api
     {
         public static void Main1(string[] args)
         {
-            // 需要执行撤回的签署流程id数组，最多100个
             string[] flowIds = {"****************", "****************"};
             
             CreateBatchCancelFlowUrlService service = new CreateBatchCancelFlowUrlService();

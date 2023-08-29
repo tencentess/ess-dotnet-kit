@@ -2,13 +2,6 @@ using api;
 using TencentCloud.Ess.V20201111;
 using TencentCloud.Ess.V20201111.Models;
 
-/**
- * 查询集团企业列表
- * <p>
- * 官网文档：https://cloud.tencent.com/document/product/1323/86114
- * <p>
- * 此API接口用户查询加入集团的成员企业
- */
 namespace group
 {
     public class GroupDescribeOrganizationGroupOrganizationsService

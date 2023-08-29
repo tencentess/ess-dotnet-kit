@@ -10,7 +10,6 @@ namespace api
         // 通过AuthCode查询用户是否实名调用样例
         public static void Main1(string[] args)
         {
-            // 电子签小程序跳转客户小程序时携带的授权查看码
             string authCode = "********************************";
 
             DescribeThirdPartyAuthCodeService service = new DescribeThirdPartyAuthCodeService();

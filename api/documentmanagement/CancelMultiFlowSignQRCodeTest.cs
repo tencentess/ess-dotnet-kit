@@ -8,7 +8,6 @@ namespace api
     {
         public static void Main1(string[] args)
         {
-            // 二维码id
             string qrCodeId = "********************************";
 
             CancelMultiFlowSignQRCodeService service = new CancelMultiFlowSignQRCodeService();

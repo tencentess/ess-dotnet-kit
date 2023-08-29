@@ -9,7 +9,6 @@ namespace api
         // 获取小程序跳转链接调用样例
         public static void Main1(string[] args)
         {
-            // 成功发起合同的flowid
             string flowId = "********************************";
 
             CreateSchemeUrlService service = new CreateSchemeUrlService();

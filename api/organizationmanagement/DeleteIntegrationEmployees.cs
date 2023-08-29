@@ -1,11 +1,6 @@
 using TencentCloud.Ess.V20201111;
 using TencentCloud.Ess.V20201111.Models;
 
-// DeleteIntegrationEmployees 移除员工
-//
-// 官网文档：https://cloud.tencent.com/document/product/1323/81116
-//
-// 移除员工
 namespace api
 {
     public class DeleteIntegrationEmployeesService
@@ -22,7 +17,6 @@ namespace api
             userInfo.UserId = operatorUserId;
             req.Operator = userInfo;
 
-            // 待移除员工的信息，userId和openId二选一，必填一个
             req.Employees = employees;
 
             DeleteIntegrationEmployeesResponse resp = client.DeleteIntegrationEmployeesSync(req);

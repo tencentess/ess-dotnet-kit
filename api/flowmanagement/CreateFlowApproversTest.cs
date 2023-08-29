@@ -9,20 +9,16 @@ namespace api
     {
         public static void Main1(string[] args)
         {
-            string flowName = "我的第一份模版合同";
+            string flowName = "我的第一份模板合同";
             
-            // 签署流程编号
             String flowId = "*****************";
 
-            // 补充签署人信息
             FillApproverInfo approverInfo = new FillApproverInfo();
-            // 签署人来源
-            // WEWORKAPP: 企业微信
+
             approverInfo.ApproverSource = "WEWORKAPP";
-            // 签署人签署Id
+
             approverInfo.RecipientId = "****************";
-            // 企业自定义账号Id
-            // WEWORKAPP场景下指企业自有应用获取企微明文的userid
+
             approverInfo.CustomUserId = "***************";
             FillApproverInfo[] approvers = new FillApproverInfo[]{approverInfo};
             

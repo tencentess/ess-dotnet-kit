@@ -1,9 +1,6 @@
 using TencentCloud.Ess.V20201111;
 using TencentCloud.Ess.V20201111.Models;
 
-// DescribeThirdPartyAuthCode 通过AuthCode查询用户是否实名
-//
-// 官网文档：https://cloud.tencent.com/document/product/1323/70368
 namespace api
 {
     public class DescribeThirdPartyAuthCodeService
@@ -15,7 +12,6 @@ namespace api
 
             DescribeThirdPartyAuthCodeRequest req = new DescribeThirdPartyAuthCodeRequest();
 
-            // 电子签小程序跳转客户小程序时携带的授权查看码
             req.AuthCode = "********************************";
 
             DescribeThirdPartyAuthCodeResponse resp = client.DescribeThirdPartyAuthCodeSync(req);

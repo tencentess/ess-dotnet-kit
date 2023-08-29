@@ -1,11 +1,6 @@
 using TencentCloud.Ess.V20201111;
 using TencentCloud.Ess.V20201111.Models;
 
-// CreateFlowEvidenceReport 创建并返回出证报告
-//
-// 官网文档：https://cloud.tencent.com/document/product/1323/79686
-//
-// 创建出证报告，返回报告 ID。
 namespace api
 {
     public class CreateFlowEvidenceReportService

@@ -9,9 +9,8 @@ namespace api
         // 创建一码多扫流程签署二维码调用样例
         public static void Main1(string[] args)
         {
-            // 模板ID
             string templateId = "********************************";
-            // 签署流程名称，最大长度不超过200字符
+            
             string flowName = "扫码签流程";
 
             CreateMultiFlowSignQRCodeService service = new CreateMultiFlowSignQRCodeService();

@@ -9,10 +9,8 @@ namespace group
         // 获取小程序跳转链接调用样例
         public static void Main1(string[] args)
         {
-            // 需要代发起的子企业的企业id
             string proxyOrganizationId = "*****************";
             
-            // 成功发起合同的flowid
             string flowId = "********************************";
 
             GroupCreateSchemeUrlService service = new GroupCreateSchemeUrlService();
